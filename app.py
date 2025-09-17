@@ -3,7 +3,7 @@ import requests
 app = Flask(__name__)
 # Replace with your Postman API endpoint
 POSTMAN_API_URL = "https://api.postman.com/collections/<your_collection_id>"
-API_KEY = "<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>"  # Replace with your key
+API_KEY = "<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>"  # Replace with your key
 @app.route("/myapi", methods=["GET"])
 def my_api():
    headers = {"X-Api-Key": API_KEY}
