@@ -1,3 +1,5 @@
 flask
+pandas
+sqlite
 requests
 gunicorn
